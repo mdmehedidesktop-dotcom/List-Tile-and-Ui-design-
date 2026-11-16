@@ -165,7 +165,7 @@ class _ProductScreenState extends State<ProductScreen> {
                       Row(
                         spacing: 10,
                         children: [
-                          Text("৳1300",style: TextStyle(fontSize: 16,decoration:TextDecoration.lineThrough),),
+                          Text("৳1300",style: TextStyle(fontSize: 18,decoration:TextDecoration.lineThrough),),
                           Container(
                             padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
                             decoration: BoxDecoration(color: Colors.black87,borderRadius: BorderRadius.circular(10)),
@@ -173,6 +173,11 @@ class _ProductScreenState extends State<ProductScreen> {
                             Text("10% off",style: TextStyle(color: Colors.white),),
 
                           )
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Text("৳ 1100",style: TextStyle(fontSize: 16),)
                         ],
                       )
                     ],
