@@ -163,10 +163,14 @@ class _ProductScreenState extends State<ProductScreen> {
                       Text("Mehedi group",style: TextStyle(fontSize: 12,color: Colors.grey),),
                       Text("Product quality high",style: TextStyle(fontSize: 16),),
                       Row(
+                        spacing: 10,
                         children: [
-                          Text("৳1300",style: TextStyle(fontSize: 16,decoration:),),
+                          Text("৳1300",style: TextStyle(fontSize: 16,decoration:TextDecoration.lineThrough),),
                           Container(
                             padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+                            decoration: BoxDecoration(color: Colors.black87,borderRadius: BorderRadius.circular(10)),
+                            child: 
+                            Text("10% off",style: TextStyle(color: Colors.white),),
 
                           )
                         ],
@@ -176,7 +180,7 @@ class _ProductScreenState extends State<ProductScreen> {
                 ],
               ),
             ),
-          )
+          ),
 
         ],
       ),
